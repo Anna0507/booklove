@@ -1,0 +1,22 @@
+<div class="row"> 
+	<div class="span10 offset1 centered"> 
+
+		<h1> Content Mgmt Area :) </h1>
+		<h2> <%= link_to "Add another Legend", new_legend_path %> </h2>
+		<h2> or manage existing ones: </h2> <br> <br>
+
+		<% @legends.each do |legend| %> 
+
+			<div class="legend_on_first_page">
+				<a href="<%= legend_books_path(legend) %>">	
+				<img src= "<%= legend.image %>" width="300" height="300" /> </a> <br>  
+				<%= link_to "Edit", edit_legend_path(legend) %>  
+				<%= link_to 'Destroy', legend, method: :delete, data: { confirm: 'Delete this Legend?' } %>
+				<br>
+			</div> 
+
+		<% end %> 
+
+	</div> 
+</div> 
+

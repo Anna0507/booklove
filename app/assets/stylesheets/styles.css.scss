@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$baseFontFamily: Oxygen;
+$navbarHeight: 20px;
+$bodyBackground: #3D515B;
+$navbarBackground: black; 
+$navbarBackgroundHighlight: black; 
+$navbarLinkColor: white; 
+$textColor: white; 
+$inputBorderRadius: 3px; 
+$navbarLinkColorHover: false; 
+
+/* colors: 085579  0B374B 3D515B */ 
+
+
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+
+body 
+{
+	margin-top: 60px;
+	margin-bottom: 60px; 
+}
+
+.centered 
+{
+	text-align: center; 
+}
+
+
+/* STATIC PAGES */ 
+
+.slogan
+{
+	margin-bottom: 100px; 
+}
+
+.legend_on_first_page
+{
+	width: 20%; 
+	margin-right: 5%; 
+	margin-left: 5%; 
+	float: left; 
+}
+
+.text_on_static_pages
+{
+	color: black; 
+	background: white; 
+	min-height: 550px; 
+}
+
+.header_text_on_static_pages
+{
+	margin-top: 30px; 
+}
+
+.inside_text_on_static_pages
+{
+	margin-left: 15%; 
+	margin-right: 15%; 
+	margin-top: 30px; 
+}
+

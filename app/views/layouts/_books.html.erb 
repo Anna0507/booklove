@@ -1,0 +1,8 @@
+<% @books.each do |book| %> 
+
+	<img src="<%= book.image %>" width="300" height="300" />  
+	<h4> <%= book.title %> </h4> 
+	<p> <%= book.description %> <p> 
+	<a href="<%= book.link %>"> Buy @Amazon </a> <br> 
+
+<% end %> 

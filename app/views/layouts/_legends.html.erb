@@ -1,0 +1,11 @@
+<% @legends.each do |legend| %> 
+	
+<div class="legend_on_first_page">
+	<a href="<%= legend_path(legend) %>"> <img src= "<%= legend.image %>" width="400" height="400" /> </a>
+	<h4> <%= legend.name %> </h4> 
+	<p> <%= legend.description %> </p> 
+	<%= link_to "Reading List", legend_path(legend) %> 
+	<br> 
+</div>
+
+<% end %> 
