@@ -2,13 +2,14 @@
 
 $baseFontFamily: Oxygen;
 $navbarHeight: 20px;
-$bodyBackground: #3D515B;
+$bodyBackground: #5C5C5C;
 $navbarBackground: black; 
 $navbarBackgroundHighlight: black; 
 $navbarLinkColor: white; 
 $textColor: white; 
 $inputBorderRadius: 3px; 
 $navbarLinkColorHover: false; 
+$heroUnitBackground: black; 
 
 /* colors: 085579  0B374B 3D515B */ 
 
@@ -34,6 +35,12 @@ body
 .slogan
 {
 	margin-bottom: 100px; 
+}
+
+.slogan_background
+{
+ background-color: black; 
+ width: 100%; 	
 }
 
 .legend_on_first_page
