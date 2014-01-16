@@ -20,7 +20,7 @@ $heroUnitBackground: black;
 
 body 
 {
-	margin-top: 60px;
+	margin-top: 50px;
 	margin-bottom: 60px; 
 }
 
@@ -50,6 +50,46 @@ body
 	margin-left: 5%; 
 	float: left; 
 }
+
+.box
+{
+	background-color: black;
+	margin: 5px; 
+	padding: 5px; 
+	font-size: 11px; 
+	line-height: 1,4em; 
+	float: left; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	border-shadow: 1px 1px 10px #444;
+	width: 214px; 
+	min-height: 300px;
+}
+
+.legend_box
+{
+	
+}
+
+.book_box
+{
+	
+}
+
+
+.box img
+{
+	display: block;
+	width: 100%; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	margin-bottom: 20px; 
+}
+
+
+
 
 .text_on_static_pages
 {

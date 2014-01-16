@@ -6,7 +6,7 @@
 		<br>
 
 		<% @books.each do |book| %> 
-			<div class="legend_on_first_page">
+			<div class="box">
 				<a href="<%= book.link %>" target="_blank"> 
 				<img src="<%= book.image %>" width="300" height="300" /> </a> 
 				<h5> <%= book.title %> </h5> 
