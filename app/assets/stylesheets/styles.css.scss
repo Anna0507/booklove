@@ -34,6 +34,12 @@ body
 	background-color: black; 
 }
 
+.divider 
+{
+	border-bottom: 1px solid white; 
+}
+
+
 /* STATIC PAGES */ 
 
 .slogan
@@ -98,7 +104,8 @@ body
 	width: 25%; 
 	margin-left: 20%; 
 	float: left; 
-	min-height: 330px; 
+	min-height: 310px; 
+	margin-bottom: 20x; 
 }
 
 .book_description
@@ -106,7 +113,8 @@ body
 	width: 35%; 
 	margin-right: 20%;
 	float: left; 
-	min-height: 330px; 
+	min-height: 310px; 
+	margin-bottom: 20x; 
 }
 
 .legend_picture img
