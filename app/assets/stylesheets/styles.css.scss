@@ -63,40 +63,43 @@ body
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
 	border-shadow: 1px 1px 10px #444;
+	overflow: hidden;
 	width: 214px; 
 	height: 310px;
-	overflow: hidden;
-}
-
-.legend_box p
-{
-}
-
-
-.book_box
-{
-	
 }
 
 .box img
 {
 	display: block;
-	width: 100%; 
+	max-width: 214px;
+	max-height: 230px;
 	-webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px; 
 	margin-bottom: 20px; 
 }
+/* before it was just width: 100%; - just in case */
 
-.legend_box p
+.box p
 {
 	width: 80%; 
 	margin-right: 10%; 
 	margin-left: 10%; 
 }
 
+.book_picture
+{
+	width: 15%; 
+	float: left; 
+	min-height: 350px; 
+}
 
-
+.book_description
+{
+	width: 35%; 
+	float: left; 
+	min-height: 250px; 
+}
 
 
 
