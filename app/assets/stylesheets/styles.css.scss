@@ -29,6 +29,10 @@ body
 	text-align: center; 
 }
 
+.black_background
+{
+	background-color: black; 
+}
 
 /* STATIC PAGES */ 
 
@@ -55,7 +59,7 @@ body
 
 .box
 {
-	background-color: #5C5C5C;
+	background-color: black;
 	margin: 5px; 
 	padding: 5px; 
 	font-size: 10px; 
@@ -103,10 +107,13 @@ body
 	min-height: 350px; 
 }
 
-
-.test
+.legend_picture img
 {
-	background-color: black; 
+	webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
 }
 
 

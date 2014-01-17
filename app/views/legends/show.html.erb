@@ -1,10 +1,13 @@
 
 <div class="row">
-	<div class="span10 offset1 test">
+	<div class="span10 offset1 black_background">
 
-		<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br> <br>
+			<div class="legend_picture centered">
+				<img src="<%= @legend.image %>" width="500" height="500" /> 
+			</div> 
 
-		<div class="span7">
+		<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br>
+
 
 			<% @books.each do |book| %>
 				<div class="book_picture">
@@ -19,16 +22,6 @@
 					<p> <%= book.description %> </p> 
 				</div> <br>
 			<% end %> 
-
-		</div> 
-
-		<div class="span2">
-			<div class="box legend_box">
-				<img src="<%= @legend.image %>" width="300" height="300" /> 
-				<p> <%= @legend.name %> <p> 
-				<p> <%= @legend.description %> <p> 
-			</div> 
-		</div> 
 
 
 	</div> 
