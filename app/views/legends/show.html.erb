@@ -6,8 +6,7 @@
 				<img src="<%= @legend.image %>" width="500" height="500" /> 
 			</div> 
 
-		<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br>
-
+			<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br> <br>
 
 			<% @books.each do |book| %>
 				<div class="book_picture">
@@ -22,7 +21,6 @@
 					<p> <%= book.description %> </p> 
 				</div> <br>
 			<% end %> 
-
 
 	</div> 
 </div> 
