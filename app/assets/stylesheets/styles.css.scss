@@ -11,7 +11,7 @@ $inputBorderRadius: 3px;
 $navbarLinkColorHover: false; 
 $heroUnitBackground: black; 
 
-/* colors: 085579  0B374B 3D515B */ 
+/* colors: 5C5C5C 085579  0B374B 3D515B */ 
 
 
 @import "bootstrap";
@@ -56,7 +56,7 @@ body
 	background-color: black;
 	margin: 5px; 
 	padding: 5px; 
-	font-size: 11px; 
+	font-size: 10px; 
 	line-height: 1,4em; 
 	float: left; 
 	-webkit-border-radius: 5px; 
@@ -64,19 +64,19 @@ body
 	border-radius: 5px; 
 	border-shadow: 1px 1px 10px #444;
 	width: 214px; 
-	min-height: 300px;
+	height: 310px;
+	overflow: hidden;
 }
 
-.legend_box
+.legend_box p
 {
-	
 }
+
 
 .book_box
 {
 	
 }
-
 
 .box img
 {
@@ -87,6 +87,15 @@ body
 	border-radius: 5px; 
 	margin-bottom: 20px; 
 }
+
+.legend_box p
+{
+	width: 80%; 
+	margin-right: 10%; 
+	margin-left: 10%; 
+}
+
+
 
 
 
