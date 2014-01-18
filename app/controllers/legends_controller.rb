@@ -7,6 +7,7 @@ class LegendsController < ApplicationController
   def show
     @legend = Legend.find(params[:id])
     @books = @legend.books 
+    @legends = Legend.all 
   end
 
   def new

@@ -6,15 +6,14 @@
 		<br>
 
 		<% @books.each do |book| %> 
-			<div class="box">
+			<div class="admin_box">
 				<a href="<%= book.link %>" target="_blank"> 
 				<img src="<%= book.image %>" width="300" height="300" /> </a> 
+				<%= link_to "Edit", edit_legend_book_path(@legend, book) %> 
+				<%= link_to "Destroy", legend_book_path(@legend, book), method: :delete, data: { confirm: "Delete? Really?" } %> <br>
+				<a href="<%= book.link %>" target="_blank"> Amazon Link </a> 
 				<h5> <%= book.title %> </h5> 
 				<p> <%= book.description %> </p> 
-				<a href="<%= book.link %>" target="_blank"> Amazon Link </a> <br> 
-
-				<%= link_to "Edit", edit_legend_book_path(@legend, book) %> 
-				<%= link_to "Destroy", legend_book_path(@legend, book), method: :delete, data: { confirm: "Delete? Really?" } %>
 			</div> 
 
 		<% end %> 

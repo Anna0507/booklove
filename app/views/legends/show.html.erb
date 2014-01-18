@@ -8,6 +8,14 @@
 
 			<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br> <br>
 
+	</div> 
+</div> 
+			
+
+<div class="row">
+	<div class="span10 offset1 black_background">
+
+		<div class="book_list">
 			<% @books.each do |book| %>
 				<div class="book_picture">
 					<a href="<%= book.link %>" target="_blank">
@@ -20,8 +28,17 @@
 					<h3> <%= book.title %> </h3> </a> 
 					<p> <%= book.description %> </p> 
 				</div>
-
 			<% end %> 
+		</div> 
 
+		<div class="booklist_side_bar centered">
+			<h4> Other reading lists </h4>
+			<% @legends.each do |legend| %> 
+			<a href="<%= legend_path(legend) %>"> 
+				<img src="<%= legend.image %>" width="60%" height="auto" />  
+			</a> 
+			<% end %> 
+		</div> 
+	
 	</div> 
 </div> 
