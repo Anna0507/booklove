@@ -63,6 +63,24 @@ body
 	float: left; 
 }
 
+.legends
+{
+	width: 75%; 
+	float: left; 
+}
+
+.frontpage_side_bar
+{
+	background-color: black; 
+	min-height: 650px; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	border-shadow: 1px 1px 10px #444;
+	width: 25%; 
+	float:left;
+}
+
 .box
 {
 	background-color: black;
@@ -105,7 +123,7 @@ body
 	margin-left: 20%; 
 	float: left; 
 	min-height: 310px; 
-	margin-bottom: 20x; 
+	margin-bottom: 20px; 
 }
 
 .book_description
@@ -114,7 +132,7 @@ body
 	margin-right: 20%;
 	float: left; 
 	min-height: 310px; 
-	margin-bottom: 20x; 
+	margin-bottom: 20px; 
 }
 
 .legend_picture img
