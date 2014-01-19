@@ -3,7 +3,7 @@
 	<div class="span10 offset1 black_background">
 
 			<div class="legend_picture centered">
-				<img src="<%= @legend.image %>" width="500" height="500" /> 
+				<img src="<%= @legend.image %>" width="500" height="auto" /> 
 			</div> 
 
 			<h1 class="centered"> Books recommended by <%= @legend.name %> </h1> <br> <br>
@@ -37,7 +37,8 @@
 			<a href="<%= legend_path(legend) %>"> 
 				<img src="<%= legend.image %>" width="60%" height="auto" />  
 			</a> 
-			<% end %> 
+			<% end %> <br> 
+				<%= will_paginate :page_links => false %>
 		</div> 
 	
 	</div> 

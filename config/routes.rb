@@ -10,5 +10,5 @@ Angeltation::Application.routes.draw do
 	match "/contact", to: "static_pages#Contact", via: 'get' 
 	match "/privacy", to: "static_pages#Privacy", via: 'get' 
 	match "/terms", to: "static_pages#Terms", via: 'get' 
- 
+	match "/admin", to: "legends#index", via: 'get'
 end

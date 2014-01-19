@@ -7,7 +7,8 @@ class LegendsController < ApplicationController
   def show
     @legend = Legend.find(params[:id])
     @books = @legend.books 
-    @legends = Legend.all 
+    @legends = Legend.order('random()').page(params[:page]).per_page(6)
+    # this way of paginating retrieves the objects form the database in random order. 
   end
 
   def new
