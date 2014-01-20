@@ -2,7 +2,7 @@
 	<div class="span10 offset1 centered">
 		<div class= "slogan hero-unit"> 
 			<h1> Awesome peoples' reading Lists </h1> <br>	
-			<p> "I don't know anyone neither wise nor impressive, who doesn't read all the time" <br> Charles Munger </p> 
+			<p> We've collected the reading list of some great people for you. Have fun exploring! </p> 
 		</div> 
 	</div> 
 </div> 
@@ -19,10 +19,10 @@
 				<div class= "inside_frontpage_side_bar">
 					<h4> Suggest a person we should add for you: </h4>
 
-					<form action="MAILTO:seikowsky@googlemail.com" method="post" enctype="text/plain">
-						<input type="text" name="Suggestion:" class="email_input"><br>
-						<input type="submit" value="Send" class="btn btn-medium btn-warning">
-					</form>
+					<%= form_for(:email, url: emails_path) do |f| %> 
+						<%= f.text_area :email, rows: 5, placeholder: "your suggestion here..." %> 
+						<%= f.submit "Tell us :)", class: "btn btn-medium btn-warning" %> 
+					<% end %> 
 
 					<h4> What & Why? </h4>
 

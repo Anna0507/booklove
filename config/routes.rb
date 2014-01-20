@@ -1,8 +1,9 @@
 Angeltation::Application.routes.draw do
 
-  resources :legends do 
-  	resources :books 
-  end 
+resources :emails 
+resources :legends do 
+ resources :books 
+end 
 
 	root "static_pages#Home"
 	match "/about", to: "static_pages#About", via: 'get' 

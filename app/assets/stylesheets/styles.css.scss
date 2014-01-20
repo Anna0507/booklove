@@ -84,8 +84,9 @@ body
 .inside_frontpage_side_bar
 {
 	margin: 25px; 
-	.email_input {
-		width: 95%;
+	textarea {
+		width: 80%;
+		text-align: left; 
 	}
 }
 
