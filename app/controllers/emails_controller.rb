@@ -7,7 +7,7 @@ class EmailsController < ApplicationController
       # Call the mailer, call the relevant method. Then call deliver. 
       redirect_to root_path
   	else 
-  	  	flash[:error] = "FAILure."
+  	 	flash[:error] = "FAILure."
   		redirect_to root_path
   	end	
   end
