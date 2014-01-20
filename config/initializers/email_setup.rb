@@ -1,7 +1,7 @@
 ActionMailer::Base.smtp_settings = {
   :address              => "smtp.gmail.com",
   :port                 => 587,
-  :domain               => "gmail.com",
+  :domain               => "http://serene-coast-6714.herokuapp.com/",
   :user_name            => "seikowsky@googlemail.com",
   :password             => "aufgehts1",
   :authentication       => "plain",
