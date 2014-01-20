@@ -1,18 +1,20 @@
 <div class="row">
-	<div class="span6 offset3 centered">
+	<div class="span8 offset2 centered">
+		<div class="edit_form_for_legends">
 
-		<%= form_for(@legend) do |f| %> 
-				<%= f.label :name %> 
-				<%= f.text_field :name %>
+			<%= form_for(@legend) do |f| %> 
+					<%= f.label :name %> 
+					<%= f.text_field :name %>
 
-				<%= f.label :description %> 
-				<%= f.text_area :description %> 
+					<%= f.label :description %> 
+					<%= f.text_area :description %> 
 
-				<%= f.label :image %> 			
-				<%= f.text_area :image %>  <br> 
+					<%= f.label :image, "Image-Link" %> 			
+					<%= f.text_field :image %>  <br> <br>
 
-				<%= f.submit "Submit", class: "btn btn-medium btn-warning" %> 
-		<% end %> 
+					<%= f.submit "Submit", class: "btn btn-medium btn-warning" %> 
+			<% end %>
 
+		</div>
 	</div>
 </div>

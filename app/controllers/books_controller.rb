@@ -1,4 +1,5 @@
 class BooksController < ApplicationController
+http_basic_authenticate_with :name => "Admin", :password => "Rothgordt1", only: [:index, :new, :edit]
 
   def index
     @legend = Legend.find(params[:legend_id])
