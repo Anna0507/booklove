@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   
   def Home
-    @legends = Legend.paginate(page: params[:page], per_page: 15)
+    @legends = Legend.paginate(page: params[:page], per_page: 9)
     @email = Email.new
   end
 
