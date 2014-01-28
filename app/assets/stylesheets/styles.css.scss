@@ -19,54 +19,18 @@ $heroUnitBackground: black;
 
 
 
-/* TOOLS */ 
+
+/* GENERAL CSS */ 
 
 .centered 
 {
 	text-align: center; 
 }
 
-.black_background
-{
-	background-color: black; 
-}
-
-
-
-
-/* FIRST PAGE */ 
-
 body 
 {
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-bottom: 60px; 
-}
-
-.slogan
-{
-	h1{
-		font-size: 55px; 
-	}
-}
-
-.slogan_background
-{
- background-color: black; 
- width: 100%; 	
-}
-
-.legend_on_first_page
-{
-	width: 20%; 
-	margin-right: 5%; 
-	margin-left: 5%; 
-	float: left; 
-}
-
-.legends
-{
-	width: 75%; 
-	float: left; 
 }
 
 .pagination
@@ -74,6 +38,86 @@ body
 	padding-top: 30px; 
 	clear:both;
 }
+
+
+
+
+/* HOMEPAGE */ 
+
+
+.slogan
+{
+ 	width: 100%; 	
+ 	margin-bottom: 50px;
+ 	h1{
+		font-size: 55px; 
+		}
+}
+
+
+#legends
+{
+	width: 100%; 
+	float: left;
+	text-align: center;  
+}
+
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.4em;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    width: 23%;
+    a{
+    	color: orange;
+    }
+}
+
+.box img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ /*
+ .box
+{
+	background-color: black;
+	margin: 5px; 
+	padding: 5px; 
+	font-size: 10px; 
+	line-height: 1,4em; 
+	float: left; 
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	border-shadow: 1px 1px 10px #444;
+	width: 30%; 
+	height: 310px;
+		img{
+			width: 100%;
+			-webkit-border-radius: 5px; 
+			-moz-border-radius: 5px; 
+			border-radius: 5px; 
+			margin-bottom: 20px; 
+		}
+		p{
+			width: 80%; 
+			margin-right: 10%; 
+			margin-left: 10%; 
+		}
+} */
+
+
+
+
+
 
 .frontpage_side_bar
 {
@@ -102,40 +146,7 @@ body
 /* ?NAME? */ 
 
 
-.box
-{
-	background-color: black;
-	margin: 5px; 
-	padding: 5px; 
-	font-size: 10px; 
-	line-height: 1,4em; 
-	float: left; 
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	border-shadow: 1px 1px 10px #444;
-	width: 214px; 
-	height: 310px;
-}
 
-
-.box img
-{
-	display: block;
-	max-width: 214px;
-	max-height: 230px;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	margin-bottom: 20px; 
-}
-
-.box p
-{
-	width: 80%; 
-	margin-right: 10%; 
-	margin-left: 10%; 
-}
 
 
 

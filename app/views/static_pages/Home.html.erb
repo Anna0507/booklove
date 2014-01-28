@@ -1,23 +1,18 @@
 <% provide(:tab_title, "Home") %> 
 
-<div class="row">
-	<div class="span10 offset1 centered">
-		<div class= "slogan hero-unit"> 
-			<h1> Awesome peoples' reading Lists </h1> <br>	
-			<p> We've collected the reading list of some great people for you. Have fun exploring! </p> 
-		</div> 
-	</div> 
+<div class="slogan centered">
+	<h1> Awesome peoples' reading Lists </h1> <br>	
+	<p> We've collected the reading list of some great people for you. Have fun exploring! </p> 
 </div> 
 
-<div class="row">
-	<div class="span10 offset1 centered">
 
-			<div class= "legends centered"> 
+			<div id= "legends"> 
 				<%= render 'layouts/legends' %> <br> 
-				<%= will_paginate @legends %> 
 			</div> 
+			<%= will_paginate @legends %> 
 
-			<div class= "frontpage_side_bar centered"> 
+
+			<!-- <div class= "frontpage_side_bar centered"> 
 				<div class= "inside_frontpage_side_bar">
 					<h4> Suggest a person we should add for you: </h4>
 
@@ -31,7 +26,6 @@
 					<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore </p> 
 
 				</div> 
-			</div> 
+			</div> -->
 
-	</div> 
-</div>
+	
