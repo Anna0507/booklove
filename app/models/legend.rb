@@ -1,6 +1,6 @@
 class Legend < ActiveRecord::Base
 
-validates :name, :description, :image, presence: true 
+validates :name, :image, presence: true 
 
 has_many :books, dependent: :destroy  
 
