@@ -20,4 +20,7 @@ class StaticPagesController < ApplicationController
   def Terms
   end
 
+  def user_email
+  end
+
 end

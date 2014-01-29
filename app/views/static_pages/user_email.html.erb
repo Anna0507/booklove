@@ -1,0 +1,12 @@
+<div class="row">
+	<div class="span6 offset3 user_email">
+
+		<p> Dear user, <br> if you had an idea what other person to add to our list, please tell us below. Thank you! </p>
+
+		<%= form_for(:email, url: emails_path) do |f| %> 
+		<%= f.text_area :email, rows: 5, placeholder: "your suggestion..." %> <br>
+		<%= f.submit "Tell us :)", class: "btn btn-medium btn-warning" %> 
+		<% end %> 		
+
+	</div> 
+</div> 
