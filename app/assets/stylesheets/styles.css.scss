@@ -41,7 +41,10 @@ body
 	clear:both;
 }
 
-
+.header
+{
+	font-size: 16px; 
+}
 
 /* HOMEPAGE */ 
 
@@ -63,7 +66,9 @@ body
 
 #legends
 {
-	width: 100%; 
+	padding-left: 7%; 
+	padding-right: 7%; 
+	width: 86%; 
 	float: left;
 	text-align: center;  
 }
@@ -78,7 +83,7 @@ body
     -moz-border-radius: 5px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px #444;
-    width: 23%;
+    width: 19%;
     img {
     width: 100%;
     -webkit-border-radius: 5px;
