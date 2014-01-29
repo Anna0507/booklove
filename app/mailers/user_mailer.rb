@@ -3,7 +3,7 @@ class UserMailer < ActionMailer::Base
 
   def user_input(email)
   	@email = email 
-  	mail(:to => "seikowsky@googlemail.com", :subject => "Input form User")
+  	mail(:to => "katharina.seikowsky@web.de", :subject => "Input form User")
   end 
 
 end
