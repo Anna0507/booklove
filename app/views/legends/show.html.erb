@@ -24,13 +24,14 @@
 		</div> 
 
 		<div class="booklist_side_bar">
-			<h4> More reading lists </h4> <br>
+			<h3> More reading <br> lists </h3> <br>
 			<% @legends.each do |legend| %> 
+			<p> <%= legend.name %> </p> 
 			<a href="<%= legend_path(legend) %>"> 
 				<img src="<%= legend.image %>" width="60%" height="auto" />  
 			</a> 
 			<% end %> <br> 
-				<%= will_paginate :page_links => false %>
+			<%= will_paginate :page_links => false %>
 		</div> 
 	
 	</div> 

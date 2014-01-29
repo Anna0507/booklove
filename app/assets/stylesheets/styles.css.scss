@@ -150,6 +150,7 @@ body
 	webkit-border-radius: 5px; 
 	-moz-border-radius: 5px; 
 	border-radius: 5px;
+	padding-bottom: 50px; 
 }
 
 .booklist_intro
@@ -182,16 +183,18 @@ body
 	border-left: 1px solid white; 
 	margin-bottom: 60px; 
 	text-align: center;
+	img{
+		-webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		margin-bottom: 15px; 
+	}
+	p{
+		margin: 2px; 
+		padding: 0px; 
+	}
 }
-
-.booklist_side_bar img 
-{
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	margin-bottom: 15px; 
-}
-
+ 
 .book_picture
 {
 	width: 25%; 
@@ -203,7 +206,7 @@ body
 	margin-top: 20px; 
 	}
 	a{
-	color: orange; 
+		color: orange; 
 	}
 }
 
