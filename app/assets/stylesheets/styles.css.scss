@@ -5,8 +5,8 @@
 $baseFontFamily: Oxygen;
 $navbarHeight: 35px;
 $bodyBackground: #5C5C5C;
-$navbarBackground: black; 
-$navbarBackgroundHighlight: black; 
+$navbarBackground: #1D1D1D; 
+$navbarBackgroundHighlight: #1D1D1D; 
 $navbarLinkColor: white; 
 $textColor: white; 
 $inputBorderRadius: 3px; 
@@ -29,10 +29,9 @@ $heroUnitBackground: black;
 	text-align: center; 
 }
 
-body 
-{
-	margin-top: 80px;
-	margin-bottom: 60px; 
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .pagination
@@ -43,7 +42,7 @@ body
 
 .header
 {
-	font-size: 16px; 
+	font-size: 15px; 
 }
 
 /* HOMEPAGE */ 
@@ -51,18 +50,12 @@ body
 .slogan
 {
  	width: 100%; 	
- 	margin-bottom: 50px;
- 	background-color: black; 
+ 	margin-top: 50px;
+	margin-bottom: 70px;
  	h1{
-		font-size: 61px; 
-		margin-bottom: 20px; 
+		font-size: 65px; 
+		margin-bottom: 3px; 
 		}
-	p{
-		font-size: 15px; 
-	}
-	a{
-		color: orange; 
-	}
 }
 
 #legends
