@@ -1,8 +1,7 @@
 class StaticPagesController < ApplicationController
   
   def Home
-    @legends = Legend.paginate(page: params[:page], per_page: 9)
-    @email = Email.new
+    @legends = Legend.order('random()').page(params[:page]).per_page(9)
   end
 
   def About
@@ -21,6 +20,7 @@ class StaticPagesController < ApplicationController
   end
 
   def user_email
+    @email = Email.new
   end
 
 end
