@@ -8,7 +8,7 @@ http_basic_authenticate_with :name => "Admin", :password => "Rothgordt1", only: 
   def show
     @legend = Legend.find(params[:id])
     @books = @legend.books.order('random()')
-    @legends = Legend.order('random()').page(params[:page]).per_page(6)
+    @legends = Legend.order('random()').page(params[:page]).per_page(4)
     # this way of paginating retrieves the objects form the database in random order. 
   end
 
