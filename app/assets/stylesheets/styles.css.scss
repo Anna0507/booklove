@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Gilda+Display);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
 $baseFontFamily: Oxygen;
-$navbarHeight: 20px;
+$navbarHeight: 35px;
 $bodyBackground: #5C5C5C;
 $navbarBackground: black; 
 $navbarBackgroundHighlight: black; 
@@ -29,7 +31,7 @@ $heroUnitBackground: black;
 
 body 
 {
-	margin-top: 60px;
+	margin-top: 70px;
 	margin-bottom: 60px; 
 }
 
@@ -104,84 +106,7 @@ body
 
 
 
-
-
-
-
-
-
-
-
-
-.book_list
-{
-	width: 75%; 
-	float: left; 	
-}
-
-.booklist_side_bar
-{
-	background-color: black; 
-	min-height: 650px; 
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	border-shadow: 1px 1px 10px #444;
-	width: 24%; 
-	float:left;
-	border-left: 1px solid white; 
-	margin-bottom: 60px; 
-}
-
-.booklist_side_bar img 
-{
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	margin-bottom: 15px; 
-}
-
-.book_picture
-{
-	width: 25%; 
-	margin-left: 15%; 
-	float: left; 
-	min-height: 310px; 
-	margin-bottom: 20px; 
-}
-
-.book_description
-{
-	width: 55%; 
-	margin-right: 5%;
-	float: left; 
-	min-height: 310px; 
-	margin-bottom: 20px; 
-}
-
-.legend_picture img
-{
-	webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	border-radius: 5px; 
-	margin-top: 20px; 
-	margin-bottom: 20px; 
-}
-
-
 /* FORMS IN ADMIN AREA */ 
-
-.edit_form_for_legends, .new_form_for_legends
-{
-	margin-top: 30px; 
-	form input {
-		width: 50%;
-	}
-	textarea{
-		width: 50%;
-		height: 250px; 
-	}	
-}
 
 .admin_form
 {
@@ -194,8 +119,6 @@ body
 		height: 250px; 
 	}	
 }
-
-
 
 
 
@@ -217,5 +140,82 @@ body
 		margin-top: 30px; 
 	}
 }
+
+
+
+
+.booklist
+{
+	background-color: black; 
+	webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+}
+
+.booklist_intro
+{
+	width: 100%; 
+	text-align: center;
+	padding-bottom: 30px; 
+	img {
+		webkit-border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		border-radius: 5px; 
+		margin-top: 20px; 
+		margin-bottom: 20px; 
+	}
+}
+
+.booklist_body
+{
+	width: 75%; 
+	float: left; 
+	min-height: 650px;
+	margin-bottom: 60px; 
+}
+
+.booklist_side_bar
+{
+	min-height: 650px;  
+	width: 24%; 
+	float:left;
+	border-left: 1px solid white; 
+	margin-bottom: 60px; 
+	text-align: center;
+}
+
+.booklist_side_bar img 
+{
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px; 
+	margin-bottom: 15px; 
+}
+
+.book_picture
+{
+	width: 25%; 
+	margin-left: 15%; 
+	float: left; 
+	min-height: 310px; 
+	margin-bottom: 20px; 
+	img{
+	margin-top: 20px; 
+	}
+	a{
+	color: orange; 
+	}
+}
+
+.book_description
+{
+	width: 55%; 
+	margin-right: 5%;
+	float: left; 
+	min-height: 310px; 
+	margin-bottom: 20px; 
+}
+
+
 
 
