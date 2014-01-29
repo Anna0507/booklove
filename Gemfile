@@ -13,6 +13,8 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'jbuilder', '1.0.2'
 gem 'rails_on_heroku'
+gem 'newrelic_rpm'
+# This is to make the heroku relic add-on work. New Relic is an add on for website performance monitoring. 
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
