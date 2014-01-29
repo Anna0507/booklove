@@ -1,7 +1,7 @@
 class StaticPagesController < ApplicationController
   
   def Home
-    @legends = Legend.order('random()').page(params[:page]).per_page(9)
+    @legends = Legend.order('random()').page(params[:page]).per_page(30)
   end
 
   def About
